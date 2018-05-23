@@ -30,4 +30,10 @@ RSpec.describe FizzBuzz do
 
     expect(result[3]).to eq 4
   end
+
+  it 'returns buzz as fifth number' do
+    result = described_class.new.until(5)
+
+    expect(result[4]).to eq 'buzz'
+  end
 end
