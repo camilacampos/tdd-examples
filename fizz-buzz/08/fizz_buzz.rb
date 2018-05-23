@@ -1,16 +1,18 @@
 class FizzBuzz
-  def until(last_index)
-    Array.new(last_index) { |i| calculate_value(i+1) }
+  def until(max_number)
+    Array.new(max_number) do |current_array_index|
+      calculate_fizz_buzz(current_array_index+1)
+    end
   end
 
   private
 
-  def calculate_value(current_index)
+  def calculate_fizz_buzz(current_number)
     result = ''
 
-    result = 'fizz' if current_index % 3 == 0
-    result += 'buzz' if current_index % 5 == 0
-    result = current_index if result.empty?
+    result = 'fizz' if current_number % 3 == 0
+    result += 'buzz' if current_number % 5 == 0
+    result = current_number if result.empty?
 
     result
   end
