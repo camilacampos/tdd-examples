@@ -18,7 +18,7 @@ Seu desafio é fazer, usando TDD, um algoritmo que receba um número inteiro e o
 
 Por exemplo, se a entrada for o número `1`, o retorno deve ser `I`; se a entrada for o número `20`, o retorno deve ser `XX`.
 
-Para fins desse exercício, podemos considerar que os números romanos vão apenas até 50 (L).
+Para fins desse exercício, podemos considerar que os números romanos contém apenas 3 letras (`"I"`, `"V"` e `"X"`), ou seja, vão apenas até 39 (XXXIX).
 
 ## Fontes
 
