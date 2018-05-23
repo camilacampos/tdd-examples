@@ -25,7 +25,7 @@ Para que um triângulo seja considerado válido, é necessário que a medida de 
 
 Seu desafio é fazer, usando TDD, um algoritmo que receba dois números inteiros, que representam dois lados de um triângulo, e retorne o valor da hipotenusa, caos a mesma possa ser calculada, ou `'erro'`, caso contrário.
 
-Por exemplo, se a entrada for 3 e 4, então o algoritmo deve retornar 5 como valor da hipotenusa; se a entrada formar um triângulo inválido, o algoritmo deve retornar a string `'erro'`.
+Por exemplo, se a entrada for 3 e 4, então o algoritmo deve retornar 5 como valor da hipotenusa.
 
 ## Fontes
 
