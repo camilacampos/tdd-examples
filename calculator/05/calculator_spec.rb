@@ -19,14 +19,6 @@ describe Calculator do
 
       expect(result).to eq 7
     end
-
-    it 'returns the difference between second and first value' do
-      instance = described_class.new
-
-      result = instance.calculate(3, 10, operation: '-')
-
-      expect(result).to eq -7
-    end
   end
 
   context "when using '*' operation in calculation" do
